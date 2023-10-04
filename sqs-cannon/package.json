@@ -1,0 +1,13 @@
+{
+  "name": "sqs-cannon",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {},
+  "keywords": [],
+  "author": "AWS Serverless",
+  "license": "MIT-0",
+  "dependencies": {
+    "@aws-sdk/client-sqs": "^3.414.0"
+  }
+}
