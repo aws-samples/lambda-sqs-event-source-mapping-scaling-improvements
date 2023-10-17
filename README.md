@@ -2,7 +2,7 @@
 
 This project is used to demonstrate the scaling improvements on the AWS Lambda SQS Event-source mapping. 
 
-Read the full announcement blog [here](tbd). 
+Read the full announcement blog [here](https://aws.amazon.com/blogs/compute/introducing-faster-polling-scale-up-for-aws-lambda-functions-configured-with-amazon-sqs/). 
 
 > ![](https://img.shields.io/badge/_-IMPORTANT-red) <br/> 
 > This sample project is configured to demonstrate a large scale workload processing 200,000 messages. Running the project might incur charges to your account. 
@@ -45,7 +45,7 @@ Read the full announcement blog [here](tbd).
 
     ![](diagram1.png)
 
-5. Navigate to CloudWatch Dashboards, and open a newly created dashboard that starts with `LambdaSqsEsmScalingDemoDashboard`. Watch the Lambda function graduallys scaling up as SQS queue is being drained. 
+5. Navigate to CloudWatch Dashboards, and open a newly created dashboard that starts with `LambdaSqsEsmScalingDemoDashboard`. Watch the Lambda function gradually scaling up as SQS queue is being drained. 
 
     ![](diagram3.png)
 
